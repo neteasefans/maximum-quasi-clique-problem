@@ -1,7 +1,7 @@
 # maximum-quasi-clique-problem
 This repository includes the source code of the proposed OBMA algorithm published in an EJOR paper titled with "An opposition-based memetic algorithm for the maximum quasi-clique problem".
 
-The four sets of 122 benchmark instances are from the classic DIMACS, BHOSLIB, University of Florida Sparse Matrix Collection and Stanford Large Network Dataset Collection libraries (refer to [3]). To facilitate the further research, we upload the instances here. Due to the too large size of the instances from Stanford Large Network Dataset Collection, we exclude them.
+The four sets of 122 benchmark instances are from the classic DIMACS, BHOSLIB, University of Florida Sparse Matrix Collection and Stanford Large Network Dataset Collection libraries (refer to [3]). To facilitate the further research, we upload the instances here. Due to the too large size of the instances from Stanford Large Network Dataset Collection, we do not upload them.
 
 Reference papers to the maximum quasi-clique problem (MQCP):
 
