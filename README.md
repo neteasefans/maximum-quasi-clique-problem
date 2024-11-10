@@ -25,9 +25,10 @@ q.zhou$
 
 *** To run:
 
-q.zhou$ ./OBMA_MQCP ./input_file n d k time seed ./output_res_file
+q.zhou$ ./OBMA_MQCP ./input_file gamma time seed ./output_stat_file ./output_sol_file
 
-(where input_file is the instance name, n is the numbe of points of the instance, d is the dimension of the point, k is the number of clusterrs, time is the cutoff of an execution, seed is the random seed, such as 1, 2, ..., 10., output_res_file is a file used to store the running information)
+(where input_file is the instance name, gamma is the required density, time is the cutoff time, seed is the random seed, such as 1, 2, ...,\
+			output_stat_file is a file used to store the running information, output_sol_file stores the solution information)
 
 q.zhou$
 
