@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	if (argc < 7)
 	{
-		cout << "TS.exe usage: ./input_file gamma time seed ./output_stat_file ./output_sol_file";
+		cout << "OBMA_MQCP usage: ./input_file gamma time seed ./output_stat_file ./output_sol_file";
 		cout << "(where input_file is the instance name, gamma is the required density, time is the cutoff time, seed is the random seed, such as 1, 2, ...,\
 			output_stat_file is a file used to store the running information, output_sol_file stores the solution information)" << endl;
 		exit(-1);
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 		cout << "open file_in error" << endl;
 		exit(-1);
 	}
-	int best_k = -1;							//ËùÇóÄ¿±êÖµ
+	int best_k = -1;							//æ‰€æ±‚ç›®æ ‡å€¼
 	int runs = 1;
 
 	double sim;
@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
 	{
 		start_time = clock();		
 		bool res_val;		
-		fixed_k = -1;											//²»Ê¹ÓÃbest_known Õâ¸öÏÈÑéÖªÊ¶£¬±£Ö¤¹«Æ½¡£
+		fixed_k = -1;											//ä¸ä½¿ç”¨best_known è¿™ä¸ªå…ˆéªŒçŸ¥è¯†ï¼Œä¿è¯å…¬å¹³ã€‚
 		best_k = -1, sol_ms_best.sol_len = -1;		
 		int iter = 0;
 
